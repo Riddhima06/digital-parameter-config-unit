@@ -27,6 +27,7 @@ void setup() {
     display.println("Hello World");
 
     display.display();
+
 }
 
 void loop() {
