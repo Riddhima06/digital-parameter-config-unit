@@ -11,7 +11,12 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup() {
-// write your initialization code here
+    Serial.begin(9600);
+    if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR)) {
+        Serial.println("OLED not found");
+        while (true);
+    }
+
 }
 
 void loop() {
