@@ -6,6 +6,8 @@
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 
+#define OLED_ADDR 0x3C
+
 void setup() {
 // write your initialization code here
 }
