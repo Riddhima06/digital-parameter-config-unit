@@ -139,8 +139,8 @@ Replace environment/board if your `platformio.ini` uses a different name.
 ---
 
 ## Author
-Project Author: <Your Name Here>
-- Email: your.email@example.com (replace)
+Project Author: <Your Riddhima Rajput>
+- Email: riddhimarajput2006@gmail.com
 - Repository: (add repo URL if applicable)
 
 ---
