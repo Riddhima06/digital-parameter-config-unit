@@ -26,6 +26,8 @@ void setup() {
     display.println("OLED with I2C");
     display.println("Hello World");
 
+    display.display();
+
 }
 
 void loop() {
