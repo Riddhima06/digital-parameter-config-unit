@@ -27,9 +27,8 @@ void setup() {
     display.println("Hello World");
 
     display.display();
-
 }
 
 void loop() {
-// write your code here
+    // write your code here
 }
